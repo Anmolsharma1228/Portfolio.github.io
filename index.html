@@ -14,8 +14,7 @@
     <nav class="flex justify-between items-center w-[92%] mx-auto">
       <div class="text-3xl font-extrabold"
         style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
-        <a href="#" alt="My portfolio" class="font-extralight">ANMO-<span
-            class="text-[#543A14]">L</span></a>
+        <a href="#" alt="My portfolio" class="font-extralight">ANMO-<span class="text-[#543A14]">L</span></a>
       </div>
       <div
         class="nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[30vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-5">
@@ -217,8 +216,10 @@
                 class="px-2 py-2 bg-[#181C14] border border-[#ECDFCC] md:w-[300px] w-[250px] rounded-sm">
             </div>
             <div class="text-[#ECDFCC]">
-              <textarea rows="10" class="md:w-[300px] w-[250px] bg-[#181C14] border border-[#ECDFCC] rounded-sm" ">
-        </textarea>
+              <textarea id="textarea1"
+                class="textarea-class md:w-[300px] w-[250px] bg-[#181C14] border border-[#ECDFCC] rounded-sm""  
+        cols=" 40" rows="10" placeholder="Type your message..." name="userMessage" maxlength="500" minlength="10"
+                wrap="soft" spellcheck="true" required autofocus></textarea>
             </div>
             <div>
               <button class=" bg-[#ECDFCC] text-[#181C14] px-6 py-2 rounded-md font-semibold text-lg">Submit</button>
@@ -227,7 +228,6 @@
         </div>
       </div>
     </section>
-
   </main>
   <script src="script.js"></script>
 </body>
