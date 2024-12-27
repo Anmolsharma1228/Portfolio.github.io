@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/b37a8d6a03.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>My Portfolio</title>
+</head>
+
+<body class="bg-[#181C14] text-white">
+  <header class="bg-white text-black">
+    <nav class="flex justify-between items-center w-[92%] mx-auto">
+      <div class="text-3xl font-extrabold"
+        style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
+        <a href="#" alt="My portfolio" class="font-extralight"><span class="text-[]">A</span>NMO-<span
+            class="text-[#543A14]">L</span></a>
+      </div>
+      <div
+        class="nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-5">
+        <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-4 font-semibold font-serif">
+          <li>
+            <a class="hover:text-gray-500" href="#Home">Home</a>
+          </li>
+          <li>
+            <a class="hover:text-gray-500" href="#About">About Me</a>
+          </li>
+          <li>
+            <a class="hover:text-gray-500" href="#Portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a class="hover:text-gray-500" href="#Skills">Skills</a>
+          </li>
+          <li>
+            <a class="hover:text-gray-500" href="#Contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="flex items-center gap-6 md:hidden">
+        <i onclick="onToggleMenu(this)" class="fa-solid fa-bars text-3xl cursor-pointer"></i>
+      </div>
+  </header>
+
+  <main>
+    <section id="Home">
+      <div class="md:flex md:justify-around md:items-center mt-8">
+        <div class="md:w-[500px]">
+          <p class="md:text-4xl lg:text-5xl text-3xl sm:text-4xl font-bold md:mt-20 mt-10 py-1 mx-4">Hi, I'm full stack
+            developer.</p>
+          <p class="mt-5 md:text-lg lg:text-xl sm:text-xl font-serif mx-4"> A skilled and versatile full-stack developer
+            with expertise in building
+            robust and scalable web applications. With a strong foundation in both front-end and back-end technologies,
+            I specialize in creating seamless user experiences and efficient server-side solutions. My tech stack
+            includes Html, Css3, JavaScript, Bootsrap and Tailwind CSS, I thrive on tackling challenging projects and
+            collaborating with teams to deliver innovative solutions.</p>
+        </div>
+        <div class="md:w-[500px]">
+          <img src="./images/—Pngtree—cyber bullying landing page opinion_15977779.png" />
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="py-10" id="About">
+      <div class="container mx-auto lg:px-10 px-5 lg:py-10">
+        <h2 class="text-3xl font-bold md:mt-10 font-mono">About me</h2>
+        <div class="md:flex md:justify-between mt-8 md:items-center">
+          <div class="md:w-[500px]">
+            <img src="https://www.seekpng.com/png/detail/502-5026526_background-career-portfolio.png" alt="About me/" />
+          </div>
+          <div class="md:w-[500px]">
+            <p class="mt-5 md:text-lg sm:text-xl font-serif mx-4 lg:text-xl">Hii, my name is anmol sharma, basiclly i am
+              from varanasi(U.P). But i settled
+              in delhi from my childhood. Talk about educational qualification so i have completed my (SSC) from
+              Sarvodaya bal vidhyalaya senior secondry school with 6.9 CGPA. As well as now i am persing in Bachelor of
+              Arts form indra gandhi national open university (IGNOU), apart from i am learning web development from
+              Almabetter till now i have done my front-end like Html, css3, Bootsrap, Tailwindcss, Javascript, React.js.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="md:py-10" id="Portfolio">
+      <div class="container mx-auto lg:px-10 px-5 lg:py-10 py-5">
+        <h2 class="text-3xl font-bold md:mt-10 font-mono">Portfolio</h2>
+        <div class="flex flex-wrap md:flex-nowrap sm:justify-between md:justify-between justify-center mt-10">
+          <div
+            class="lg:w-[300px] md:w-[200px] w-[250px] bg-[#ECDFCC] rounded-sm ring-2 ring-black ring-offset-4 ring-offset-slate-100 dark:ring-offset-slate-900 mb-10">
+            <div>
+              <img src="./src/cars.webp" class="rounded-sm " />
+            </div>
+            <div class="flex justify-around text-black py-2 font-semibold">
+              <button class="hover:text-red-700 hover:scale-110 font-bold duration-200"><a
+                  href="https://annsharma.github.io/FindYourCar.github.io/">Demo</a></button>
+              <button class="hover:text-red-700 hover:scale-110 font-bold duration-200"><a
+                  href="https://github.com/ANNSHARMA/FindYourCar.github.io">Code</a></button>
+            </div>
+          </div>
+
+          <div
+            class="lg:w-[300px] md:w-[200px] w-[250px] bg-[#ECDFCC] rounded-sm ring-2 ring-black ring-offset-4 ring-offset-slate-100 dark:ring-offset-slate-900 mb-10">
+            <div>
+              <img src="./src/eco1.jpeg" class="rounded-sm" />
+            </div>
+            <div class="flex justify-around text-black py-2 font-semibold">
+              <button class="hover:text-red-700 hover:scale-110 font-bold duration-200"><a
+                  href="https://annsharma.github.io/EnergicoWeb.github.io/">Demo</a></button>
+              <button class="hover:text-red-700 hover:scale-110 font-bold duration-200"><a
+                  href="https://github.com/ANNSHARMA/EnergicoWeb.github.io">Code</a></button>
+            </div>
+          </div>
+
+          <div
+            class="lg:w-[300px] md:w-[200px] w-[250px] bg-[#ECDFCC] rounded-sm ring-2 ring-black ring-offset-4 ring-offset-slate-100 dark:ring-offset-slate-900 mb-10">
+            <div>
+              <img src="./src/micro.jpeg" class="rounded-sm" />
+            </div>
+            <div class="flex justify-around items-center text-black py-2 font-semibold">
+              <button class="hover:text-red-700 hover:scale-110 font-bold duration-200"><a
+                  href="https://annsharma.github.io/Microsoft.github.io/">Demo</a></button>
+              <button class="hover:text-red-700 hover:scale-110 font-bold duration-200"><a
+                  href="https://github.com/ANNSHARMA/Microsoft.github.io">Code</a></button>
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+    <section id="Skills">
+      <div class="container mx-auto md:px-10 px-5 md:py-10 py-5">
+        <h2 class="text-3xl font-bold">Skills</h2>
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-10 justify-items-center mt-8">
+          <div
+            class="text-center border-l border-r border-b-4 border-orange-400 rounded-md px-8 py-5 hover:scale-105 duration-200">
+            <div>
+              <img src="./images/HTML5.svg" alt="" class="w-[100px]">
+              <p class="text-lg font-semibold">Html5</p>
+              <p></p>
+            </div>
+          </div>
+          <div
+            class="text-center border-l border-r border-b-4 border-sky-600 rounded-md px-8 py-5 hover:scale-105 duration-200">
+            <div>
+              <img src="./images/CSS3.svg" alt="" class="w-[100px]">
+              <p class="text-lg font-semibold">Css3</p>
+              <p></p>
+            </div>
+          </div>
+          <div
+            class="text-center border-l border-r border-b-4 border-yellow-300 rounded-md px-7 py-5 hover:scale-105 duration-200">
+            <div>
+              <img src="./images/JavaScript.svg" alt="" class="w-[100px]">
+              <p class="text-lg font-semibold">Javascript</p>
+              <p></p>
+            </div>
+          </div>
+          <div
+            class="text-center border-l border-r border-b-4 border-blue-600 rounded-md px-7 py-5 hover:scale-105 duration-200">
+            <div>
+              <img src="./images/Bootstrap.svg" alt="" class="w-[100px]">
+              <p class="text-lg font-semibold">Bootsrap</p>
+              <p></p>
+            </div>
+          </div>
+          <div
+            class="text-center border-l border-r border-b-4 border-slate-500 rounded-md px-8 py-5 hover:scale-105 duration-200">
+            <div>
+              <img src="./images/Tailwind CSS.svg" alt="" class="w-[100px]">
+              <p class="text-lg font-semibold">Tailwind</p>
+              <p></p>
+            </div>
+          </div>
+          <div
+            class="text-center border-l border-r border-b-4 border-slate-400 rounded-md px-8 py-5 hover:scale-105 duration-200">
+            <div>
+              <img src="./images/React.svg" alt="" class="w-[100px]">
+              <p class="text-lg font-semibold">React.js</p>
+              <p></p>
+            </div>
+          </div>
+          <div
+            class="text-center border-l border-r border-b-4 border-purple-700 rounded-md px-8 py-5 hover:scale-105 duration-200">
+            <div>
+              <img src="./images/Redux.svg" alt="" class="w-[100px]">
+              <p class="text-lg font-semibold">Redux</p>
+              <p></p>
+            </div>
+          </div>
+          <div
+            class="text-center border-l border-r border-b-4 border-green-600 rounded-md px-8 py-5 hover:scale-105 duration-200">
+            <div>
+              <img src="./images/Next.js.svg" alt="" class="w-[100px]">
+              <p class="text-lg font-semibold">Next.js</p>
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="Contact">
+      <div class="container mx-auto px-10 py-10 text-center">
+        <h2 class="text-3xl font-bold md:mt-10 font-mono">Contact me</h2>
+        <div class="mt-10">
+          <form class="space-y-5">
+            <div>
+              <input type="text" placeholder="Enter Your Name..."
+                class="px-2 py-2 bg-[#181C14] border border-[#ECDFCC] md:w-[300px] w-[250px] rounded-sm">
+            </div>
+            <div>
+              <input type="text" placeholder="Enter Your Email..."
+                class="px-2 py-2 bg-[#181C14] border border-[#ECDFCC] md:w-[300px] w-[250px] rounded-sm">
+            </div>
+            <div class="text-[#ECDFCC]">
+              <textarea rows="10" class="md:w-[300px] w-[250px] bg-[#181C14] border border-[#ECDFCC] rounded-sm" ">
+        </textarea>
+            </div>
+            <div>
+              <button class=" bg-[#ECDFCC] text-[#181C14] px-6 py-2 rounded-md font-semibold text-lg">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
